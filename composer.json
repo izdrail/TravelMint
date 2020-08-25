@@ -1,0 +1,24 @@
+{
+    "authors": [
+        {
+            "name": "Stefan Izdrail",
+            "email": "stefan@lzomedia.com",
+            "homepage": "https://lzomedia.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "stefan@lzomedia.com",
+        "wiki": "https://lzomedia.com/packages"
+    },
+    "autoload": {
+        "psr-4": {
+            "LzoMedia\\TravelMint\\": "src/"
+        }
+    },
+    "require": {
+        "fabpot/goutte": "^4.0",
+        "linclark/microdata-php": "^2.0",
+        "symfony/dom-crawler": "^5.1"
+    }
+}

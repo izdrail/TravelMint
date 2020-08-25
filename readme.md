@@ -1,11 +1,14 @@
-#Travelminit Client
+# Travelminit.ro Client
 
-This is a client for extracting data from the travel minit website.
 
+This is a php client for scrapping data from the travel travelminit.ro website.
+
+## How to use
 
 ```
 $factory = new TravelMintClient();
 
+//number of pages
 $data = $factory->extract(1,2);
 
 foreach ($data as print_r($hotel){
